@@ -83,6 +83,7 @@ header div.banner-content button:hover {
   border-image-slice: 10;
   background-image: -webkit-linear-gradient(#96defd, #58b3f8);
   background-clip: text;
+  cursor: pointer;
 }
 /* fim do header */
 
