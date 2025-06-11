@@ -74,7 +74,7 @@ header div.banner-content button {
   background-color: transparent;
   border-image: linear-gradient(#3ba1cd, #1572b7);
   border-image-slice: 10;
-  transition: 0.3s ;
+  transition: 0.3s;
 }
 
 header div.banner-content button:hover {
@@ -121,7 +121,7 @@ main {
   padding: 16px;
   border-radius: 100px;
   box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
-  transition: 0.3s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .modules-list .module:hover {
@@ -153,40 +153,46 @@ main {
 }
 
 #professional-challenges {
-    text-align: center;
-    width: 800px;
-    margin: 100px auto;
+  text-align: center;
+  width: 800px;
+  margin: 100px auto;
 }
 
 #professional-challenges h2 {
-    font-size: 2rem;
-    color: #33A8DB;
-    font-weight: bold;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin-bottom: 24px;
+  font-size: 2rem;
+  color: #33a8db;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
 }
 /* Fim do main */
 
 /* footer */
 footer {
-
-    padding: 60px 0;
-    text-align: center;
-    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
-    border-top: 1px solid #33A8DB80;
+  padding: 60px 0;
+  text-align: center;
+  background-image: linear-gradient(
+    rgba(50, 168, 219, 0),
+    rgba(50, 168, 219, 0.2)
+  );
+  border-top: 1px solid #33a8db80;
 }
 
 footer img {
-    width: 300px;
+  width: 300px;
 }
 
 footer p {
-    color: white;
+  color: white;
 }
 
 footer a {
-    color: #33A8DB;
-    font-weight: bold;
-    text-decoration: none;
+  color: #33a8db;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#dev-chenzo {
+  color: #33a8db;
 }
